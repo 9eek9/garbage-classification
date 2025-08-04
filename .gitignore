@@ -1,0 +1,45 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_save
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+
+# Gradio cache
+.gradio/
+gradio_cached_examples/
+
+# Model weights and checkpoints (except the final model)
+*.pt
+*.pth
+*.ckpt
+!models/best_garbage_model.pth
+
+# Dataset (optional, if large)
+data/
+datasets/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# OS/Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Output images
+output/
+runs/
