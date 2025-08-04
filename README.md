@@ -9,30 +9,6 @@ Additionally, a **Gradio-based UI** is provided for easy image upload and real-t
 
 ---
 
-## 📂 Project Structure
-
-GARBAGE-CLASSIFICATION/
-│
-├── app/ # Optional UI-specific Python modules
-├── demo_images/ # Screenshots for README
-│ └── AppScreenshot.png
-├── images/ # Sample images for testing
-│ ├── cardboard1.jpg
-│ ├── glass1.jpg
-│ └── ...
-├── models/ # Saved model weights
-│ └── best_garbage_model.pth
-├── notebooks/ # Jupyter notebooks for training & evaluation
-│ └── Garbage_Classification_ResNet50.ipynb
-├── src/ # Source code (training, preprocessing, utils)
-│ ├── app.py # Gradio app entry point
-│ └── predict.py # Image prediction helper functions
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-└── .gitignore # Ignore cache, logs, env, etc.
-
-
----
 
 ## ⚡ Features
 
@@ -50,7 +26,7 @@ GARBAGE-CLASSIFICATION/
 
 ## 🖼️ Model Workflow
 
-![App UI](demo_images/AppScreenshot.png)
+![ResNet50 Workflow](demo_images/workflow.png)
 
 ---
 
@@ -164,7 +140,7 @@ Feel free to use and adapt it for academic or commercial purposes.
 
 ## 🌐 Author & GitHub
 
-**Developed by:** **Your Name**  
+**Developed by:** **Ei Khaing**  
 
 📂 **GitHub Repository:** [Click Here](https://github.com/9eek9/garbage-classification)
 
